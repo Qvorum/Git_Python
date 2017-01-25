@@ -1,12 +1,16 @@
 #Hákon Haraldsson
-valmynd = 1:
+valmynd = 1
 while valmynd != 4:
     print("1: 2 tölur")
     print("2: Nafn")
     print("3: Stafir")
-    valmynd = int(input("Veldu verkefni"))
+    valmynd = int(input("Veldu verkefni "))
     if valmynd == 1:
-        tala1 = int(input("Sláðu inn fyrstu töluna"))
-        tala2 = int(input("Sláðu inn seinni töluna"))
+        tala1 = int(input("Sláðu inn fyrstu töluna "))
+        tala2 = int(input("Sláðu inn seinni töluna "))
         print("Samlagning talnana er :",tala1 + tala2)
         print("Margföldun talnana er :", tala1 * tala2)
+    if valmynd == 2:
+        fornafn = input("Fornafn? ")
+        eftirnafn = input("Eftirnafn? ")
+        print("Halló",fornafn,eftirnafn)
